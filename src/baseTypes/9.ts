@@ -28,6 +28,10 @@ const page2: pageTypes = {
   likes: 5,
   accounts: ["Alex"],
   status: "close",
+  details: {
+    createAt: new Date(),
+    updateAt: new Date(),
+  },
 };
 
 export {};
