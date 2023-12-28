@@ -3,7 +3,7 @@
   і повертає boolean значення, що вказує, чи це день робочий чи вихідний.
 */
 
-enum Day {
+enum Days {
   Monday,
   Tuesday,
   Wednesday,
@@ -12,8 +12,8 @@ enum Day {
   Saturday,
   Sunday,
 }
-function isWeekend(day: Day): boolean {
-  if (day === Day.Saturday || day === Day.Sunday) {
+function isWeekend(day: Days): boolean {
+  if (day === Days.Saturday || day === Days.Sunday) {
     return true;
   } else {
     return false;
